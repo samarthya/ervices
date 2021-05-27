@@ -12,3 +12,9 @@ Simple get should return a default output as
     "message" : "Hello from server"
 }
 ```
+
+# Notes to self
+
+> The go command now builds packages in module-aware mode by default, even when no go.mod is present. This is a big step toward using modules in all projects.
+
+[Go Modules v1.16](https://blog.golang.org/go116-module-changes)
