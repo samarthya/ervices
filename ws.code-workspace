@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"go.languageServerExperimentalFeatures": {
+			"diagnostics": true
+		},
+		"go.buildOnSave": "workspace",
+		"go.toolsGopath": "/Users/ss670121/sourcebox/golang/ervices",
+		"go.executable.path": "/usr/local/go/bin/go",
+	}
 }
